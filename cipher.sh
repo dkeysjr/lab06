@@ -12,15 +12,3 @@
      echo "Encrypted: $encrypted"
      echo "Decrypted: $decrypted"
   fi done }
-
-# A function to display the date and time
-current_date () {
-  # Display the date
-  today=$(date +"%m-%d-%y")
-  echo -e "\nToday's date: $today "
-
-  # Display the time
-  current_time=$(date +"%H:%M:%S %p")
-  echo -e "The current time: $current_time\n"
-
-}
